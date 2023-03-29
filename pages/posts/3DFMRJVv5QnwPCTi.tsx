@@ -7,7 +7,7 @@ const bitcoin_clipper = () => {
 
     <>
         <head>
-            <title>Bitcoin Clipper Malware</title>
+            <title>Katsu.bio</title>
         </head>
 
         <Grid.Container css={{ display: "flex" }}>
