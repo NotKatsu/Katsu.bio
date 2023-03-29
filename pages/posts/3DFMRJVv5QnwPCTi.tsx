@@ -93,7 +93,7 @@ const bitcoin_clipper = () => {
                 <Spacer y={1} />
                 <Button css={{ bg: "transparent", fontSize: "19px", paddingLeft: "$0" }} auto onPress={() => Router.push('/')}><BiArrowBack style={{ marginRight: "5px" }}/>Back</Button>
 
-                <Spacer y={2} />
+                <Spacer y={0.5} />
                 <Divider />
                 <Spacer y={0.5} />
                 <p style={{ fontSize: "18px", padding: "none" }}>© Katsu 2021 - 2023 😇</p>
