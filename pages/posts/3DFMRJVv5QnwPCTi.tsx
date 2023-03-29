@@ -1,4 +1,4 @@
-import { Divider, Card, Spacer, Grid, Badge } from "@nextui-org/react";
+import { Divider, Card, Spacer, Grid, Badge, Tooltip, Link } from "@nextui-org/react";
 
 const bitcoin_clipper = () => {
   return (
@@ -13,8 +13,9 @@ const bitcoin_clipper = () => {
                 <h2 style={{ marginTop: "10%", fontSize: "30px" }}>Bitcoin Clipper Malware Investigation</h2>
                 
                 <p style={{ fontSize: "20px" }}>Katsu / Mar 29, 2023 <Badge size="lg" color={"error"} css={{ borderRadius: "10px" }}>Malware</Badge></p>
+
                 <Spacer y={1} />
-                <img  style={{ borderRadius: "6px", width: "100%" }} src="https://media.discordapp.net/attachments/1090007244076228639/1090725860866277436/ed-hardie-Y5PSyMm8nMk-unsplash.jpg?width=687&height=458" />
+                <img showSkeleton style={{ borderRadius: "6px", width: "100%" }} src="https://media.discordapp.net/attachments/1090007244076228639/1090725860866277436/ed-hardie-Y5PSyMm8nMk-unsplash.jpg?width=687&height=458" />
                 <Spacer y={1} />
                 <Divider />
                 <Spacer y={1} />
@@ -41,7 +42,7 @@ const bitcoin_clipper = () => {
 
                 <Spacer y={1} />
                 <Card variant="flat" css={{ bg: "#1f2124", width: "75%", borderRadius: "10px" }}>
-                    <p style={{ fontSize: "19px", marginTop: "2%", marginBottom: "2%", marginLeft: "2%" }}>git clone https://github.com/NotKatsu/Bitcoin-Clipper.git</p>
+                    <p style={{ fontSize: "19px", marginTop: "2%", marginBottom: "2%", marginLeft: "2%" }}>git clone <Link css={{ color: "#FFFFFF" }} href="https://github.com/NotKatsu/Bitcoin-Clipper.git">https://github.com/NotKatsu/Bitcoin-Clipper.git</Link></p>
                 </Card>
 
                 <Spacer y={2} />
