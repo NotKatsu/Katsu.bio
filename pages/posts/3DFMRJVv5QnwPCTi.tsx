@@ -1,4 +1,4 @@
-import { Divider, Card, Spacer, Grid, Badge, Button, Link, Row } from "@nextui-org/react";
+import { Divider, Card, Spacer, Grid, Badge, Button, Link, Row, Tooltip } from "@nextui-org/react";
 import { BiArrowBack } from 'react-icons/bi'
 import Router from 'next/router'
 
@@ -16,7 +16,10 @@ const bitcoin_clipper = () => {
                 
                 <Row>
                     <p style={{ fontSize: "20px" }}><Link href="https://github.com/NotKatsu/" css={{ color: "#FFFFFF", marginRight: "3px" }}>Katsu</Link> / Mar 29, 2023</p>
-                    <Badge size="lg" color={"error"} css={{ borderRadius: "10px", marginLeft: "$5" }}>Malware</Badge>
+
+                    <Tooltip content={"Dangerous Software"} hideArrow={true} placement="rightEnd" shadow={false} color={"error"}>
+                        <Badge size="lg" color={"error"} css={{ borderRadius: "10px", marginLeft: "$5" }}>Malware</Badge>
+                    </Tooltip>
                 </Row>
 
                 <Spacer y={1} />
