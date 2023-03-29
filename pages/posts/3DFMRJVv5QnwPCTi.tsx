@@ -5,7 +5,7 @@ const bitcoin_clipper = () => {
 
     <>
         <head>
-            <title>Bitcoin Clipper Malware - 👋</title>
+            <title>Bitcoin Clipper Malware</title>
             <meta content="Bitcoin Clipper Malware Investigation" property="og:title" />
             <meta content="Bitcoin Clipper Malware investigation along with a tutorial on how to setup and create your own version." property="og:description" />
             <meta content="https://cdn.discordapp.com/avatars/1052982721598738522/080f16f55b808c0ae9579c11e90e7354.png" property="og:url" />
@@ -18,6 +18,8 @@ const bitcoin_clipper = () => {
                 <h2 style={{ marginTop: "10%", fontSize: "30px" }}>Bitcoin Clipper Malware Investigation.</h2>
                 
                 <p style={{ fontSize: "20px" }}>Katsu#8890 / Mar 30, 2023 <Badge size="lg" color={"error"} css={{ borderRadius: "10px" }}>Malware</Badge></p>
+                <Spacer y={1} />
+                <img  style={{ borderRadius: "6px", width: "100%" }} src="https://media.discordapp.net/attachments/1090007244076228639/1090725860866277436/ed-hardie-Y5PSyMm8nMk-unsplash.jpg?width=687&height=458" />
                 <Spacer y={1} />
                 <Divider />
                 <Spacer y={1} />
