@@ -13,8 +13,8 @@ export default function home() {
                 <h1 style={{ fontSize: "25px", fontWeight: "400", marginTop: "5%", marginLeft: "5%" }}>Bitcoin Clipper Malware Investigation</h1> 
                 <h1 style={{ fontSize: "18px", fontWeight: "400", marginTop: "5%", marginLeft: "38%", color: "#767b84" }}>Mar 29, 2023</h1>
             </Row>
-            <p style={{ fontSize: "18px", fontWeight: "400", color: "#ced2d8", marginLeft: "5%" }}>An in-depth Investigation into a new form of undetectable Malware, figure out how it works how it works and how</p>
-            <p style={{ fontSize: "18px", fontWeight: "400", color: "#ced2d8", marginLeft: "5%" }}>you can prevent getting infected by it, learn how to create your own version for research purposes or just to</p>
+            <p style={{ fontSize: "18px", fontWeight: "400", color: "#ced2d8", marginLeft: "5%" }}>An in-depth Investigation into a new form of undetectable Malware. Figure out how it works how it works and how</p>
+            <p style={{ fontSize: "18px", fontWeight: "400", color: "#ced2d8", marginLeft: "5%" }}>you can prevent getting infected by it. Learn how to create your own version for research purposes or just to</p>
             <p style={{ fontSize: "18px", fontWeight: "400", color: "#ced2d8", marginLeft: "5%", marginBottom: "5%" }}>get a feel for how the Malware functions.</p>
           </Card>
         </Grid>
