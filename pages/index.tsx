@@ -11,7 +11,7 @@ export default function home() {
           <Card isPressable={true} variant="flat" css={{ marginTop: "10%", borderRadius: "10px" }} onPress={() => Router.push('/posts/3DFMRJVv5QnwPCTi')}>
             <Row>
                 <h1 style={{ fontSize: "25px", fontWeight: "400", marginTop: "5%", marginLeft: "5%" }}>Bitcoin Clipper Malware Investigation</h1> 
-                <h1 style={{ fontSize: "18px", fontWeight: "400", marginTop: "5%", marginLeft: "40%", color: "#767b84" }}>Mar 29, 2023</h1>
+                <h1 style={{ fontSize: "18px", fontWeight: "400", marginTop: "5%", marginLeft: "38%", color: "#767b84" }}>Mar 29, 2023</h1>
             </Row>
             <p style={{ fontSize: "18px", fontWeight: "400", color: "#ced2d8", marginLeft: "5%" }}>An in-depth Investigation into a new form of undetectable Malware, figure out how it works how it works and how</p>
             <p style={{ fontSize: "18px", fontWeight: "400", color: "#ced2d8", marginLeft: "5%" }}>you can prevent getting infected by it, learn how to create your own version for research purposes or just to</p>
