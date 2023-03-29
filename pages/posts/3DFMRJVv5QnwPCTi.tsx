@@ -6,7 +6,7 @@ const bitcoin_clipper = () => {
     <>
         <head>
             <title>Bitcoin Clipper Malware - 👋</title>
-            <meta content="Bitcoin Clipper Malware - Katsu" property="og:title" />
+            <meta content="Bitcoin Clipper Malware Investigation" property="og:title" />
             <meta content="Bitcoin Clipper Malware investigation along with a tutorial on how to setup and create your own version." property="og:description" />
             <meta content="https://cdn.discordapp.com/avatars/1052982721598738522/080f16f55b808c0ae9579c11e90e7354.png" property="og:url" />
             <meta content="https://cdn.discordapp.com/avatars/1052982721598738522/080f16f55b808c0ae9579c11e90e7354.png" property="og:image" />
