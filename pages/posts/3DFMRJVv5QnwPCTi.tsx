@@ -12,7 +12,7 @@ const bitcoin_clipper = () => {
             <Grid css={{ marginLeft: "auto", marginRight: "auto" }}>
                 <h2 style={{ marginTop: "10%", fontSize: "30px" }}>Bitcoin Clipper Malware Investigation</h2>
                 
-                <p style={{ fontSize: "20px" }}>Katsu / Mar 30, 2023 <Badge size="lg" color={"error"} css={{ borderRadius: "10px" }}>Malware</Badge></p>
+                <p style={{ fontSize: "20px" }}>Katsu / Mar 29, 2023 <Badge size="lg" color={"error"} css={{ borderRadius: "10px" }}>Malware</Badge></p>
                 <Spacer y={1} />
                 <img  style={{ borderRadius: "6px", width: "100%" }} src="https://media.discordapp.net/attachments/1090007244076228639/1090725860866277436/ed-hardie-Y5PSyMm8nMk-unsplash.jpg?width=687&height=458" />
                 <Spacer y={1} />
@@ -78,7 +78,7 @@ const bitcoin_clipper = () => {
 
                 <Spacer y={1} />
                 <Card variant="flat" css={{ bg: "#1f2124", width: "75%", borderRadius: "10px" }}>
-                    <p style={{ fontSize: "19px", marginTop: "2%", marginBottom: "2%", marginLeft: "2%" }}>python clipper.py OR python3 clipper.py</p>
+                    <p style={{ fontSize: "19px", marginTop: "2%", marginBottom: "2%", marginLeft: "2%" }}>python clipper.py or python3 clipper.py</p>
                 </Card>
 
                 <Spacer y={2} />
