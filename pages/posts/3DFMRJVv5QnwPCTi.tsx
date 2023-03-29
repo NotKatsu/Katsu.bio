@@ -1,4 +1,6 @@
-import { Divider, Card, Spacer, Grid, Badge, Tooltip, Link } from "@nextui-org/react";
+import { Divider, Card, Spacer, Grid, Badge, Button, Link } from "@nextui-org/react";
+import { BiArrowBack } from 'react-icons/bi'
+import Router from 'next/router'
 
 const bitcoin_clipper = () => {
   return (
@@ -88,10 +90,13 @@ const bitcoin_clipper = () => {
                 <p style={{ fontSize: "19px" }}>clipped!", this will help you when testing it because you will know when "you have been the Malware</p>
                 <p style={{ fontSize: "19px" }}>has worked and when it hasn't.</p>
 
+                <Spacer y={1} />
+                <Button css={{ bg: "transparent", fontSize: "19px", paddingLeft: "$0" }} auto onPress={() => Router.push('/')}><BiArrowBack style={{ marginRight: "5px" }}/>Back</Button>
+
                 <Spacer y={2} />
                 <Divider />
                 <Spacer y={0.5} />
-                <p style={{ fontSize: "18px" }}>© Katsu 2021 - 2023 😇</p>
+                <p style={{ fontSize: "18px", padding: "none" }}>© Katsu 2021 - 2023 😇</p>
                 <Spacer y={1} />
             </Grid>
         </Grid.Container>
