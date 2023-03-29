@@ -1,5 +1,4 @@
 import { Divider, Card, Spacer, Grid, Badge } from "@nextui-org/react";
-import code_block from "@/components/codeBlock";
 
 const bitcoin_clipper = () => {
   return (
