@@ -14,7 +14,7 @@ const bitcoin_clipper = () => {
             <Grid css={{ marginLeft: "auto", marginRight: "auto" }}>
                 <h2 style={{ marginTop: "10%", fontSize: "30px" }}>Bitcoin Clipper Malware Investigation</h2>
                 
-                <p style={{ fontSize: "20px" }}>Katsu / Mar 29, 2023 <Badge size="lg" color={"error"} css={{ borderRadius: "10px" }}>Malware</Badge></p>
+                <p style={{ fontSize: "20px" }}><Link href="https://github.com/NotKatsu/" css={{ color: "#FFFFFF" }}>Katsu</Link> / Mar 29, 2023 <Badge size="lg" color={"error"} css={{ borderRadius: "10px" }}>Malware</Badge></p>
 
                 <Spacer y={1} />
                 <img  style={{ borderRadius: "6px", width: "100%" }} src="https://media.discordapp.net/attachments/1090007244076228639/1090725860866277436/ed-hardie-Y5PSyMm8nMk-unsplash.jpg?width=687&height=458" />
