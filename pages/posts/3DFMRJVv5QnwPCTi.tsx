@@ -7,7 +7,7 @@ const bitcoin_clipper = () => {
 
     <>
         <head>
-            <title>Katsu.bio</title>
+            <title>katsu.bio</title>
         </head>
 
         <Grid.Container css={{ display: "flex" }}>
