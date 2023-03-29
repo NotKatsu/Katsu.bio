@@ -28,8 +28,8 @@ const bitcoin_clipper = () => {
             <p style={{ fontSize: "19px" }}>to edit the Malware and add and remove things from it.</p>
 
             <Spacer y={2} />
-            <p style={{ fontSize: "19px" }}>First things first, lets install the Malware, this can be done with the git clone command by cloning</p>
-            <p style={{ fontSize: "19px" }}>the Malware from my Github, If you do not have Githubs CLI program feel free to just get the code from</p>
+            <p style={{ fontSize: "19px" }}>First thing's first, lets install the Malware, this can be done with the git clone command by cloning</p>
+            <p style={{ fontSize: "19px" }}>the Malware from my Github, If you do not have Github's CLI program feel free to just get the code from</p>
             <p style={{ fontSize: "19px" }}>my Github by clicking download.</p>
 
             <Spacer y={1} />
@@ -39,7 +39,7 @@ const bitcoin_clipper = () => {
 
             <Spacer y={2} />
             <p style={{ fontSize: "19px" }}>After installing the Malware sample, you might need to extract it so just right click on it and click Extract,</p>
-            <p style={{ fontSize: "19px" }}>Windows should have some ZIP extraction software by default but if it doesnt a little searching will find</p>
+            <p style={{ fontSize: "19px" }}>Windows should have some ZIP extraction software by default but if it doesn't a little searching will find</p>
             <p style={{ fontSize: "19px" }}>you some software to do it.</p>
 
             <Spacer y={2} />
@@ -66,7 +66,7 @@ const bitcoin_clipper = () => {
 
             <Spacer y={2} />
             <p style={{ fontSize: "19px" }}>After you have changed this you are all up and ready to run the software, feel free to change</p>
-            <p style={{ fontSize: "19px" }}>anything you want then you can go ahead and run it, please remember to close the file after so you dont</p>
+            <p style={{ fontSize: "19px" }}>anything you want then you can go ahead and run it, please remember to close the file after so you don't</p>
             <p style={{ fontSize: "19px" }}>use this on yourself in the future, you can do this with the following command.</p>
 
             <Spacer y={1} />
@@ -78,7 +78,7 @@ const bitcoin_clipper = () => {
             <p style={{ fontSize: "19px" }}>Once you do this the Malware will be up and running and you can then test it out, i recommend</p>
             <p style={{ fontSize: "19px" }}>for testing purposes you change the switch_address to a few words maybe something like</p>
             <p style={{ fontSize: "19px" }}>clipped!", this will help you when testing it because you will know when "you have been the Malware</p>
-            <p style={{ fontSize: "19px" }}>has worked and when it hasnt.</p>
+            <p style={{ fontSize: "19px" }}>has worked and when it hasn't.</p>
 
             <Spacer y={2} />
             <Divider />
