@@ -42,22 +42,22 @@ const home = () => {
                   </Link>
 
                   <Link href="https://open.spotify.com/user/31ruwervll5borolr22judzsee4i" style={{ marginRight: "2%", color: "#FFFFFF" }}>
-                    <p style={{ fontSize: "19px", marginRight: "2%" }}><BsSpotify size={28}/></p>
+                    <p style={{ fontSize: "19px", marginRight: "2%" }}><BsSpotify size={30}/></p>
                   </Link>
                 </Row>
 
                 <h2 style={{ marginTop: "3%", fontSize: "25px" }}>Tools:</h2>
                 <Row>
                     <Link href="https://github.com/NotKatsu/" style={{ marginRight: "2%", color: "#FFFFFF" }}>
-                        <p style={{ fontSize: "19px", marginRight: "2%" }}><BsGithub size={34}/></p>
+                        <p style={{ fontSize: "19px", marginRight: "2%" }}><BsGithub size={32}/></p>
                     </Link>
 
                     <Link href="https://code.visualstudio.com/" style={{ marginRight: "2%", color: "#FFFFFF" }}>
-                        <p style={{ fontSize: "19px", marginRight: "2%" }}><SiVisualstudiocode size={34}/></p>
+                        <p style={{ fontSize: "19px", marginRight: "2%" }}><SiVisualstudiocode size={30}/></p>
                     </Link>
 
                     <Link href="https://python.org/" style={{ marginRight: "2%", color: "#FFFFFF" }}>
-                        <p style={{ fontSize: "19px", marginRight: "2%" }}><FaPython size={37}/></p>
+                        <p style={{ fontSize: "19px", marginRight: "2%" }}><FaPython size={32}/></p>
                     </Link>
 
                     <Link href="https://www.sqlite.org/index.html/" style={{ marginRight: "2%", color: "#FFFFFF" }}>
