@@ -1,9 +1,10 @@
 import { Divider, Card, Spacer, Grid, Badge, Button, Link, Row, Tooltip } from "@nextui-org/react";
 import { BiArrowBack } from 'react-icons/bi'
-import { BsGithub } from 'react-icons/bs'
+import { BsGithub, BsYoutube } from 'react-icons/bs'
 import { SiVisualstudiocode, SiCplusplus } from 'react-icons/si'
 import { SiMongodb } from 'react-icons/si'
-import { FaPython, FaDatabase } from 'react-icons/fa'
+import { FaPython, FaDatabase, FaDiscord } from 'react-icons/fa'
+import { AiFillInstagram } from 'react-icons/ai'
 import Router from 'next/router'
 
 const home = () => {
@@ -22,8 +23,22 @@ const home = () => {
                 <p style={{ fontSize: "19px" }}> projects, I have experience with multiple programming languages like Python, Go, C#</p>
                 <p style={{ fontSize: "19px" }}>and recently started to learn C++.</p>
 
-                <h2 style={{ marginTop: "3%", fontSize: "25px" }}>Tools:</h2>
+                <h2 style={{ marginTop: "3%", fontSize: "25px" }}>Socials:</h2> 
+                <Row>
+                  <Link href="https://discord.com/channels/@me/1052982721598738522/" style={{ marginRight: "2%", color: "#FFFFFF" }}>
+                    <p style={{ fontSize: "19px", marginRight: "2%" }}><FaDiscord size={32}/></p>
+                  </Link>
 
+                  <Link href="https://www.youtube.com/@katsugocrazy" style={{ marginRight: "2%", color: "#FFFFFF" }}>
+                    <p style={{ fontSize: "19px", marginRight: "2%" }}><BsYoutube size={32}/></p>
+                  </Link>
+
+                  <Link href="https://www.youtube.com/@katsugocrazy" style={{ marginRight: "2%", color: "#FFFFFF" }}>
+                    <p style={{ fontSize: "19px", marginRight: "2%" }}><AiFillInstagram size={32}/></p>
+                  </Link>
+                </Row>
+
+                <h2 style={{ marginTop: "3%", fontSize: "25px" }}>Tools:</h2>
                 <Row>
                     <Link href="https://github.com/NotKatsu/" style={{ marginRight: "2%", color: "#FFFFFF" }}>
                         <p style={{ fontSize: "19px", marginRight: "2%" }}><BsGithub size={34}/></p>
@@ -46,7 +61,16 @@ const home = () => {
                     </Link>
                 </Row>
 
-                
+                <h2 style={{ marginTop: "3%", fontSize: "25px" }}>More about me:</h2>
+                <p style={{ fontSize: "19px" }}>As mentioned before I'm a developer from the UK that goes by the name Katsu online, not</p>
+                <p style={{ fontSize: "19px" }}>many of my in real life friends know what I get up to outside of school they just know I</p>
+                <p style={{ fontSize: "19px" }}>have always had an interest in Computers, I first started coding at the age of 9 when my</p>
+                <p style={{ fontSize: "19px" }}>dad introduced me to Python which is a language I have stuck with.</p>
+
+                <h2 style={{ marginTop: "3%", fontSize: "25px" }}>What is this?</h2>
+                <p style={{ fontSize: "19px" }}>This website is a place for me to share code through what I have called "posts" these are</p>
+                <p style={{ fontSize: "19px" }}>just mini blogs but I hate that word so I wont use it much, here you will be able to find</p>
+                <p style={{ fontSize: "19px" }}>code, tutorials on how to setup projects and more.</p>
 
                 <Spacer y={1} />
                 <Button css={{ bg: "transparent", fontSize: "19px", paddingLeft: "$0" }}  animated={false} auto onPress={() => Router.push('/posts')}><BiArrowBack style={{ marginRight: "5px" }}/>Back</Button>
