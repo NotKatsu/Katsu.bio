@@ -22,7 +22,7 @@ const home = () => {
                 <p style={{ fontSize: "19px" }}>I'm Katsu a Developer from the UK, I am currently 15 and working on a few interesting</p>
                 <p style={{ fontSize: "19px" }}> projects, I have experience with multiple programming languages like Python, Go, C#</p>
                 <p style={{ fontSize: "19px" }}>and recently started to learn C++.</p>
-
+                
                 <h2 style={{ marginTop: "3%", fontSize: "25px" }}>Socials:</h2> 
                 <Row>
                   <Link href="/posts" style={{ marginRight: "2%", color: "#FFFFFF" }}>
