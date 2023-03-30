@@ -1,16 +1,11 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '@/styles/Home.module.css'
-import { IoMdInformationCircle } from 'react-icons/io'
+
 import { FaDiscord } from 'react-icons/fa'
 import { MdEmail } from 'react-icons/md'
 import { BsGithub } from 'react-icons/bs'
-import { useRouter } from 'next/router'
 import { Card, Text, Button, Grid, Spacer, Divider, Progress, Container } from '@nextui-org/react'
 
 
 export default function atMe() {
-  const router = useRouter()
   return (
     <Container
       display="flex"
