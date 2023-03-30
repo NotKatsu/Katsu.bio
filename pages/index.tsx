@@ -1,11 +1,10 @@
 import { Divider, Card, Spacer, Grid, Badge, Button, Link, Row, Tooltip } from "@nextui-org/react";
-import { BiArrowBack } from 'react-icons/bi'
-import { BsGithub, BsYoutube, BsSpotify } from 'react-icons/bs'
-import { SiVisualstudiocode, SiCplusplus, SiGoland } from 'react-icons/si'
+import { BiArrowBack, BiNews } from 'react-icons/bi'
+import { BsGithub, BsYoutube, BsSpotify, } from 'react-icons/bs'
+import { SiVisualstudiocode } from 'react-icons/si'
 import { SiMongodb } from 'react-icons/si'
-import { FaPython, FaDatabase, FaDiscord } from 'react-icons/fa'
+import { FaPython, FaDatabase, FaDiscord, FaBell } from 'react-icons/fa'
 import { AiFillInstagram } from 'react-icons/ai'
-import { TbBrandGolang } from 'react-icons/tb'
 import Router from 'next/router'
 
 const home = () => {
@@ -18,7 +17,7 @@ const home = () => {
 
         <Grid.Container css={{ display: "flex" }}>
             <Grid css={{ marginLeft: "auto", marginRight: "auto" }}>
-                <h2 style={{ marginTop: "10%", fontSize: "30px" }}>About Me</h2>
+                <h2 style={{ marginTop: "7%", fontSize: "30px" }}>About Me</h2>
 
                 <p style={{ fontSize: "19px" }}>I'm Katsu a Developer from the UK, I am currently 15 and working on a few interesting</p>
                 <p style={{ fontSize: "19px" }}> projects, I have experience with multiple programming languages like Python, Go, C#</p>
@@ -40,6 +39,10 @@ const home = () => {
 
                   <Link href="https://open.spotify.com/user/31ruwervll5borolr22judzsee4i" style={{ marginRight: "2%", color: "#FFFFFF" }}>
                     <p style={{ fontSize: "19px", marginRight: "2%" }}><BsSpotify size={28}/></p>
+                  </Link>
+
+                  <Link href="/posts" style={{ marginRight: "2%", color: "#FFFFFF" }}>
+                    <p style={{ fontSize: "19px", marginRight: "2%" }}><FaBell size={28}/></p>
                   </Link>
                 </Row>
 
