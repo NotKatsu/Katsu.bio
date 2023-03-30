@@ -97,7 +97,7 @@ const bitcoin_clipper = () => {
                 <p style={{ fontSize: "19px" }}>has worked and when it hasn't.</p>
 
                 <Spacer y={1} />
-                <Button css={{ bg: "transparent", fontSize: "19px", paddingLeft: "$0" }} auto onPress={() => Router.push('/')}><BiArrowBack style={{ marginRight: "5px" }}/>Back</Button>
+                <Button css={{ bg: "transparent", fontSize: "19px", paddingLeft: "$0" }} auto onPress={() => Router.push('/posts')}><BiArrowBack style={{ marginRight: "5px" }}/>Back</Button>
 
                 <Spacer y={0.5} />
                 <Divider />

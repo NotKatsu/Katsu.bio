@@ -81,7 +81,7 @@ const bitcoin_clipper = () => {
                 <p style={{ fontSize: "19px" }}>tries to copy the files which will stop it in its tracks.</p>
 
                 <Spacer y={1} />
-                <Button css={{ bg: "transparent", fontSize: "19px", paddingLeft: "$0" }}  animated={false} auto onPress={() => Router.push('/')}><BiArrowBack style={{ marginRight: "5px" }}/>Back</Button>
+                <Button css={{ bg: "transparent", fontSize: "19px", paddingLeft: "$0" }}  animated={false} auto onPress={() => Router.push('/posts')}><BiArrowBack style={{ marginRight: "5px" }}/>Back</Button>
 
                 <Spacer y={0.5} />
                 <Divider />
