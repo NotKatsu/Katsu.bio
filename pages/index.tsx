@@ -1,15 +1,11 @@
 import { Grid, Row, Link, Card, Badge, Tooltip, Button} from "@nextui-org/react"
 import { BsArrowReturnRight } from 'react-icons/bs'
 import Router from 'next/router'
-import { Head } from 'next/document'
 
 export default function home() {
   
   return (
     <>
-    <Head>
-      <title>katsu.bio</title>
-    </Head>
       <div>
         <Grid.Container css={{ display: "flex" }}>
           <Grid css={{ marginLeft: "auto", marginRight: "auto", width: "45%" }}>
