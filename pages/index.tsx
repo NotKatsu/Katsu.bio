@@ -3,7 +3,7 @@ import { BiArrowBack, BiNews } from 'react-icons/bi'
 import { BsGithub, BsYoutube, BsSpotify, } from 'react-icons/bs'
 import { SiVisualstudiocode } from 'react-icons/si'
 import { SiMongodb } from 'react-icons/si'
-import { FaPython, FaDatabase, FaDiscord, FaBell } from 'react-icons/fa'
+import { FaPython, FaDatabase, FaDiscord, FaStar } from 'react-icons/fa'
 import { AiFillInstagram } from 'react-icons/ai'
 import Router from 'next/router'
 
@@ -25,6 +25,10 @@ const home = () => {
 
                 <h2 style={{ marginTop: "3%", fontSize: "25px" }}>Socials:</h2> 
                 <Row>
+                  <Link href="/posts" style={{ marginRight: "2%", color: "#FFFFFF" }}>
+                    <p style={{ fontSize: "19px", marginRight: "2%" }}><FaStar size={28}/></p>
+                  </Link>
+
                   <Link href="https://discord.com/channels/@me/1052982721598738522/" style={{ marginRight: "2%", color: "#FFFFFF" }}>
                     <p style={{ fontSize: "19px", marginRight: "2%" }}><FaDiscord size={32}/></p>
                   </Link>
@@ -39,10 +43,6 @@ const home = () => {
 
                   <Link href="https://open.spotify.com/user/31ruwervll5borolr22judzsee4i" style={{ marginRight: "2%", color: "#FFFFFF" }}>
                     <p style={{ fontSize: "19px", marginRight: "2%" }}><BsSpotify size={28}/></p>
-                  </Link>
-
-                  <Link href="/posts" style={{ marginRight: "2%", color: "#FFFFFF" }}>
-                    <p style={{ fontSize: "19px", marginRight: "2%" }}><FaBell size={28}/></p>
                   </Link>
                 </Row>
 
