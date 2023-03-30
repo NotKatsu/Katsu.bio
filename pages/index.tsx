@@ -86,7 +86,10 @@ const home = () => {
                 <Spacer y={0.5} />
                 <Divider />
                 <Spacer y={0.5} />
-                <p style={{ fontSize: "18px", padding: "none" }}>© Katsu 2021 - 2023 😇</p>
+                <Row>
+                  <p style={{ fontSize: "18px", padding: "none", marginRight: "auto"}}>© Katsu 2021 - 2023 😇</p>
+                  <Link  href="/posts" css={{ fontSize: "18px", marginLeft: "auto", marginRight: "$5", color: "#e1e2e3" }}>Posts</Link>
+                </Row>
                 <Spacer y={1} />
             </Grid>
         </Grid.Container>
