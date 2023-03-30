@@ -18,7 +18,7 @@ export default function atMe() {
         css={{
           mw: "660px",
           borderRadius: "0.375rem",
-          bg: "#2A2B2B",
+          bg: "#16181a",
           shadow: "none",
           marginLeft: "auto",
           marginRight: "auto",
