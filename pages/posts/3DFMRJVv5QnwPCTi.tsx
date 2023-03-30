@@ -50,7 +50,7 @@ const bitcoin_clipper = () => {
 
                 <Spacer y={1} />
                 <Card variant="flat" css={{ bg: "#1f2124", width: "75%", borderRadius: "10px" }}>
-                    <p style={{ fontSize: "19px", marginTop: "2%", marginBottom: "2%", marginLeft: "2%" }}>git clone <Link css={{ color: "#FFFFFF" }} href="https://github.com/NotKatsu/Bitcoin-Clipper.git">https://github.com/NotKatsu/Bitcoin-Clipper.git</Link></p>
+                    <p style={{ fontSize: "19px", marginTop: "2%", marginBottom: "2%", marginLeft: "2%" }}>git clone <Link css={{ color: "#FFFFFF" }} href="https://github.com/NotKatsu/Bitcoin-Clipper">https://github.com/NotKatsu/Bitcoin-Clipper.git</Link></p>
                 </Card>
 
                 <Spacer y={2} />

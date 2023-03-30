@@ -7,7 +7,7 @@ export default function home() {
   return (
     <>
       <div>
-        <Grid.Container css={{ display: "flex" }}>
+        <Grid.Container css={{ display: "flex",  }}>
           <Grid css={{ marginLeft: "auto", marginRight: "auto", width: "45%" }}>
             <Card isPressable={true} variant="flat" css={{ marginTop: "10%", borderRadius: "10px" }} onPress={() => Router.push('/posts/oLWGiZkBqjC6BpZz')}>
               <Row>
