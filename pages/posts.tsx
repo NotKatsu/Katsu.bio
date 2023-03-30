@@ -13,7 +13,7 @@ export default function home() {
             <Grid css={{ marginLeft: "auto", marginRight: "auto", width: "45%" }}>
                 <Row>
                     <h2 style={{ marginTop: "5%", fontSize: "30px" }}>Recent Posts:</h2>
-                    <Button css={{ marginTop: "5%", bg: "transparent", fontSize: "19px", paddingLeft: "$0" , marginLeft: "auto"}}  animated={false} auto onPress={() => Router.push('/')}><BiArrowBack style={{ marginRight: "5px" }}/>Back</Button>
+                    <Button css={{ marginTop: "5%", bg: "transparent", fontSize: "19px", paddingLeft: "$0" , marginLeft: "auto" }}  animated={false} auto onPress={() => Router.push('/')}><BiArrowBack style={{ marginRight: "5px" }}/>Back</Button>
                 </Row>
             </Grid>
         </Grid.Container>
