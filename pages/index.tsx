@@ -1,10 +1,11 @@
 import { Divider, Card, Spacer, Grid, Badge, Button, Link, Row, Tooltip } from "@nextui-org/react";
 import { BiArrowBack } from 'react-icons/bi'
-import { BsGithub, BsYoutube } from 'react-icons/bs'
-import { SiVisualstudiocode, SiCplusplus } from 'react-icons/si'
+import { BsGithub, BsYoutube, BsSpotify } from 'react-icons/bs'
+import { SiVisualstudiocode, SiCplusplus, SiGoland } from 'react-icons/si'
 import { SiMongodb } from 'react-icons/si'
 import { FaPython, FaDatabase, FaDiscord } from 'react-icons/fa'
 import { AiFillInstagram } from 'react-icons/ai'
+import { TbBrandGolang } from 'react-icons/tb'
 import Router from 'next/router'
 
 const home = () => {
@@ -35,6 +36,10 @@ const home = () => {
 
                   <Link href="https://www.youtube.com/@katsugocrazy" style={{ marginRight: "2%", color: "#FFFFFF" }}>
                     <p style={{ fontSize: "19px", marginRight: "2%" }}><AiFillInstagram size={32}/></p>
+                  </Link>
+
+                  <Link href="https://open.spotify.com/user/31ruwervll5borolr22judzsee4i" style={{ marginRight: "2%", color: "#FFFFFF" }}>
+                    <p style={{ fontSize: "19px", marginRight: "2%" }}><BsSpotify size={28}/></p>
                   </Link>
                 </Row>
 
