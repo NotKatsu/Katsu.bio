@@ -1,40 +1,66 @@
-import { Grid, Row, Link, Card, Badge, Tooltip, Spacer } from "@nextui-org/react"
-import { BsArrowReturnRight } from 'react-icons/bs'
+import { Divider, Card, Spacer, Grid, Badge, Button, Link, Row, Tooltip } from "@nextui-org/react";
+import { BiArrowBack } from 'react-icons/bi'
+import { BsGithub } from 'react-icons/bs'
+import { SiVisualstudiocode, SiCplusplus } from 'react-icons/si'
+import { SiMongodb } from 'react-icons/si'
+import { FaPython, FaDatabase } from 'react-icons/fa'
 import Router from 'next/router'
 
-export default function home() {
-  
+const home = () => {
   return (
+
     <>
-      <div>
-        <Grid.Container css={{ display: "flex",  }}>
-          <Grid css={{ marginLeft: "auto", marginRight: "auto", width: "45%" }}>
-            <Card isPressable={true} variant="flat" css={{ marginTop: "10%", borderRadius: "10px" }} onPress={() => Router.push('/posts/oLWGiZkBqjC6BpZz')}>
-              <Row>
-                  <h1 style={{ fontSize: "25px", fontWeight: "400", marginTop: "5%", marginLeft: "5%" }}>Exodus Wallet Stealer</h1> 
-                  <h1 style={{ fontSize: "18px", fontWeight: "400", marginTop: "5%", marginLeft: "50%", color: "#767b84" }}>Mar 31, 2023</h1>
-              </Row>
-              <p style={{ fontSize: "18px", fontWeight: "400", color: "#ced2d8", marginLeft: "5%" }}>Looking into how cybercriminals gain access to your exodus wallet and take your money without you even</p>
-              <p style={{ fontSize: "18px", fontWeight: "400", color: "#ced2d8", marginLeft: "5%" }}>realizing, build your own version of the malware to test it yourself in a controlled enviroment, figure out how</p>
-              <p style={{ fontSize: "18px", fontWeight: "400", color: "#ced2d8", marginLeft: "5%", marginBottom: "5%" }}>to prevent this attack too.</p>
-            </Card>
-          </Grid>
-        </Grid.Container>
+        <head>
+            <title>katsu.bio</title>
+        </head>
 
         <Grid.Container css={{ display: "flex" }}>
-          <Grid css={{ marginLeft: "auto", marginRight: "auto", width: "45%" }}>
-            <Card isPressable={true} variant="flat" css={{ marginTop: "10%", borderRadius: "10px" }} onPress={() => Router.push('/posts/3DFMRJVv5QnwPCTi')}>
-              <Row>
-                  <h1 style={{ fontSize: "25px", fontWeight: "400", marginTop: "5%", marginLeft: "5%" }}>Bitcoin Clipper Malware</h1> 
-                  <h1 style={{ fontSize: "18px", fontWeight: "400", marginTop: "5%", marginLeft: "50%", color: "#767b84" }}>Mar 20, 2023</h1>
-              </Row>
-              <p style={{ fontSize: "18px", fontWeight: "400", color: "#ced2d8", marginLeft: "5%" }}>An in-depth Investigation into a new form of undetectable Malware. Figure out how it works how it works and</p>
-              <p style={{ fontSize: "18px", fontWeight: "400", color: "#ced2d8", marginLeft: "5%" }}>how you can prevent getting infected by it. Learn how to create your own version for research purposes or just</p>
-              <p style={{ fontSize: "18px", fontWeight: "400", color: "#ced2d8", marginLeft: "5%", marginBottom: "5%" }}>to get a feel for how the Malware functions.</p>
-            </Card>
-          </Grid>
+            <Grid css={{ marginLeft: "auto", marginRight: "auto" }}>
+                <h2 style={{ marginTop: "10%", fontSize: "30px" }}>About Me</h2>
+
+                <p style={{ fontSize: "19px" }}>I'm Katsu a Developer from the UK, I am currently 15 and working on a few interesting</p>
+                <p style={{ fontSize: "19px" }}> projects, I have experience with multiple programming languages like Python, Go, C#</p>
+                <p style={{ fontSize: "19px" }}>and recently started to learn C++.</p>
+
+                <h2 style={{ marginTop: "3%", fontSize: "25px" }}>Tools:</h2>
+
+                <Row>
+                    <Link href="https://github.com/NotKatsu/" style={{ marginRight: "2%", color: "#FFFFFF" }}>
+                        <p style={{ fontSize: "19px", marginRight: "2%" }}><BsGithub size={34}/></p>
+                    </Link>
+
+                    <Link href="https://code.visualstudio.com/" style={{ marginRight: "2%", color: "#FFFFFF" }}>
+                        <p style={{ fontSize: "19px", marginRight: "2%" }}><SiVisualstudiocode size={34}/></p>
+                    </Link>
+
+                    <Link href="https://python.org/" style={{ marginRight: "2%", color: "#FFFFFF" }}>
+                        <p style={{ fontSize: "19px", marginRight: "2%" }}><FaPython size={37}/></p>
+                    </Link>
+
+                    <Link href="https://www.sqlite.org/index.html/" style={{ marginRight: "2%", color: "#FFFFFF" }}>
+                        <p style={{ fontSize: "19px", marginRight: "2%" }}><FaDatabase size={32}/></p>
+                    </Link>
+
+                    <Link href="https://www.mongodb.com/" style={{ marginRight: "2%", color: "#FFFFFF" }}>
+                        <p style={{ fontSize: "19px", marginRight: "2%" }}><SiMongodb size={32}/></p>
+                    </Link>
+                </Row>
+
+                
+
+                <Spacer y={1} />
+                <Button css={{ bg: "transparent", fontSize: "19px", paddingLeft: "$0" }}  animated={false} auto onPress={() => Router.push('/')}><BiArrowBack style={{ marginRight: "5px" }}/>Back</Button>
+
+                <Spacer y={0.5} />
+                <Divider />
+                <Spacer y={0.5} />
+                <p style={{ fontSize: "18px", padding: "none" }}>© Katsu 2021 - 2023 😇</p>
+                <Spacer y={1} />
+            </Grid>
         </Grid.Container>
-      </div>    
     </>
+
   )
 }
+
+export default home;
