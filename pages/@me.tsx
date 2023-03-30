@@ -1,122 +1,64 @@
-
-import { FaDiscord } from 'react-icons/fa'
-import { MdEmail } from 'react-icons/md'
+import { Divider, Card, Spacer, Grid, Badge, Button, Link, Row, Tooltip } from "@nextui-org/react";
+import { BiArrowBack } from 'react-icons/bi'
 import { BsGithub } from 'react-icons/bs'
-import { Card, Text, Button, Grid, Spacer, Divider, Progress, Container } from '@nextui-org/react'
+import { SiVisualstudiocode, SiCplusplus } from 'react-icons/si'
+import { SiMongodb } from 'react-icons/si'
+import { FaPython, FaDatabase } from 'react-icons/fa'
+import Router from 'next/router'
 
-
-export default function atMe() {
+const atMe = () => {
   return (
-    <Container
-      display="flex"
-      justify="center"
-      alignItems="center"
-      css={{ minHeight: "100vh" }}
-    >
-      <Card
-        variant="flat"
-        css={{
-          mw: "660px",
-          borderRadius: "0.375rem",
-          bg: "#16181a",
-          shadow: "none",
-          marginLeft: "auto",
-          marginRight: "auto",
-          paddingTop: "$12"
-        }}
-      >
-        <Card.Body css={{ width: "auto" }}>
-          <img
-            style={{
-              borderRadius: "0.5rem",
-              height: 128,
-              width: 128,
-              marginLeft: "auto",
-              marginRight: "auto"
-            }}
-            src="https://cdn.discordapp.com/avatars/1052982721598738522/080f16f55b808c0ae9579c11e90e7354.png"
-            alt="Profile_Picture"
-          />
-          <Spacer y={2} x={0} />
-          <Divider />
-          <Text h2 css={{ textAlign: "center", paddingTop: "10px" }}>
-            Katsu#8890
-          </Text>
-          <Text
-            css={{
-              color: "#737272",
-              fontSize: "$xl",
-              fontWeight: "400",
-              textAlign: "center"
-            }}
-          >
-            Description: a passionate developer from the UK.
-          </Text>
-          <Text
-            css={{
-              color: "#737272",
-              fontSize: "$xl",
-              fontWeight: "400",
-              textAlign: "center"
-            }}
-          >
-            Skills: GoLang, Python, MongoDB, SQL.
-          </Text>
-          <Spacer y={1} x={0} />
-          <Divider />
-          <Spacer y={1} x={0} />
-          <Grid.Container gap={1}>
-            <Grid md={4} sm={6} xs={12}>
-              <Button
-                as="a"
-                href="https://discord.com/channels/@me/1052982721598738522"
-                target="_blank"
-                rel="noreferrer"
-                css={{
-                  color: "#FFFFFF",
-                  background: "#4A4A4A",
-                  width: "100%",
-                  "&:hover": { background: "#FFFFFF", color: "#4A4A4A" }
-                }}
-              >
-                <FaDiscord size={24} />
-              </Button>
+
+    <>
+        <head>
+            <title>katsu.bio</title>
+        </head>
+
+        <Grid.Container css={{ display: "flex" }}>
+            <Grid css={{ marginLeft: "auto", marginRight: "auto" }}>
+                <h2 style={{ marginTop: "10%", fontSize: "30px" }}>About Me</h2>
+
+                <p style={{ fontSize: "19px" }}>I'm Katsu a Developer from the UK, I am currently 15 and working on a few interesting</p>
+                <p style={{ fontSize: "19px" }}> projects, I have experience with multiple programming languages like Python, Go, C#</p>
+                <p style={{ fontSize: "19px" }}>and recently started to learn C++.</p>
+
+                <h2 style={{ marginTop: "3%", fontSize: "25px" }}>Tools:</h2>
+
+                <Row>
+                    <Link href="https://github.com/NotKatsu/" style={{ marginRight: "2%", color: "#FFFFFF" }}>
+                        <p style={{ fontSize: "19px", marginRight: "2%" }}><BsGithub size={34}/></p>
+                    </Link>
+
+                    <Link href="https://code.visualstudio.com/" style={{ marginRight: "2%", color: "#FFFFFF" }}>
+                        <p style={{ fontSize: "19px", marginRight: "2%" }}><SiVisualstudiocode size={34}/></p>
+                    </Link>
+
+                    <Link href="https://python.org/" style={{ marginRight: "2%", color: "#FFFFFF" }}>
+                        <p style={{ fontSize: "19px", marginRight: "2%" }}><FaPython size={37}/></p>
+                    </Link>
+
+                    <Link href="https://www.sqlite.org/index.html/" style={{ marginRight: "2%", color: "#FFFFFF" }}>
+                        <p style={{ fontSize: "19px", marginRight: "2%" }}><FaDatabase size={32}/></p>
+                    </Link>
+
+                    <Link href="https://www.mongodb.com/" style={{ marginRight: "2%", color: "#FFFFFF" }}>
+                        <p style={{ fontSize: "19px", marginRight: "2%" }}><SiMongodb size={32}/></p>
+                    </Link>
+                </Row>
+
+                <Spacer y={1} />
+                <Button css={{ bg: "transparent", fontSize: "19px", paddingLeft: "$0" }}  animated={false} auto onPress={() => Router.push('/')}><BiArrowBack style={{ marginRight: "5px" }}/>Back</Button>
+
+                <Spacer y={0.5} />
+                <Divider />
+                <Spacer y={0.5} />
+                <p style={{ fontSize: "18px", padding: "none" }}>© Katsu 2021 - 2023 😇</p>
+                <Spacer y={1} />
             </Grid>
-            <Grid md={4} sm={6} xs={12}>
-              <Button
-                as="a"
-                href="mailto:hello@katsu.bio"
-                target="_blank"
-                rel="noreferrer"
-                css={{
-                  color: "#FFFFFF",
-                  background: "#4A4A4A",
-                  width: "100%",
-                  "&:hover": { background: "#FFFFFF", color: "#4A4A4A" }
-                }}
-              >
-                <MdEmail size={24} />
-              </Button>
-            </Grid>
-            <Grid md={4} xs={12}>
-              <Button
-                as="a"
-                href="https://github.com/NotKatsu"
-                target="_blank"
-                rel="noreferrer"
-                css={{
-                  color: "#FFFFFF",
-                  background: "#4A4A4A",
-                  width: "100%",
-                  "&:hover": { background: "#FFFFFF", color: "#4A4A4A" }
-                }}
-              >
-                <BsGithub size={24} />
-              </Button>
-            </Grid>
-          </Grid.Container>
-        </Card.Body>
-      </Card>
-    </Container>
+        </Grid.Container>
+    </>
+
   )
 }
+
+export default atMe;
