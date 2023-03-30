@@ -28,9 +28,9 @@ export default function home() {
                   <h1 style={{ fontSize: "25px", fontWeight: "400", marginTop: "5%", marginLeft: "5%" }}>Bitcoin Clipper Malware</h1> 
                   <h1 style={{ fontSize: "18px", fontWeight: "400", marginTop: "5%", marginLeft: "50%", color: "#767b84" }}>Mar 20, 2023</h1>
               </Row>
-              <p style={{ fontSize: "18px", fontWeight: "400", color: "#ced2d8", marginLeft: "5%" }}>An in-depth Investigation into a new form of undetectable Malware. Figure out how it works how it works and how</p>
-              <p style={{ fontSize: "18px", fontWeight: "400", color: "#ced2d8", marginLeft: "5%" }}>you can prevent getting infected by it. Learn how to create your own version for research purposes or just to get a</p>
-              <p style={{ fontSize: "18px", fontWeight: "400", color: "#ced2d8", marginLeft: "5%", marginBottom: "5%" }}>feel for how the Malware functions.</p>
+              <p style={{ fontSize: "18px", fontWeight: "400", color: "#ced2d8", marginLeft: "5%" }}>An in-depth Investigation into a new form of undetectable Malware. Figure out how it works how it works and</p>
+              <p style={{ fontSize: "18px", fontWeight: "400", color: "#ced2d8", marginLeft: "5%" }}>how you can prevent getting infected by it. Learn how to create your own version for research purposes or just</p>
+              <p style={{ fontSize: "18px", fontWeight: "400", color: "#ced2d8", marginLeft: "5%", marginBottom: "5%" }}>to get a feel for how the Malware functions.</p>
             </Card>
           </Grid>
         </Grid.Container>
