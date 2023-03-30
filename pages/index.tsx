@@ -1,6 +1,7 @@
-import { Grid, Row, Link, Card, Badge, Tooltip, Button, Head } from "@nextui-org/react"
+import { Grid, Row, Link, Card, Badge, Tooltip, Button} from "@nextui-org/react"
 import { BsArrowReturnRight } from 'react-icons/bs'
 import Router from 'next/router'
+import { Head } from 'next/document'
 
 export default function home() {
   
