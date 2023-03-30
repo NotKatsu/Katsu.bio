@@ -102,7 +102,7 @@ const bitcoin_clipper = () => {
                 <Spacer y={0.5} />
                 <Divider />
                 <Spacer y={0.5} />
-                <p style={{ fontSize: "18px", padding: "none" }}>© Katsu 2021 - 2023 😇</p>
+                <p style={{ fontSize: "18px", padding: "none" }}>© Katsu 2019 - 2023 😇</p>
                 <Spacer y={1} />
             </Grid>
         </Grid.Container>
