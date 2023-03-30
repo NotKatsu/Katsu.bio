@@ -7,9 +7,18 @@ export default function home() {
   return (
     <>
       <div>
+
         <Grid.Container css={{ display: "flex",  }}>
+            <Grid css={{ marginLeft: "auto", marginRight: "auto", width: "45%" }}>
+            <h2 style={{ marginTop: "5%", fontSize: "30px" }}>Recent Posts:</h2>
+            </Grid>
+        </Grid.Container>
+
+
+        <Grid.Container css={{ display: "flex",  }}>
+    
           <Grid css={{ marginLeft: "auto", marginRight: "auto", width: "45%" }}>
-            <Card isPressable={true} variant="flat" css={{ marginTop: "10%", borderRadius: "10px" }} onPress={() => Router.push('/posts/oLWGiZkBqjC6BpZz')}>
+            <Card isPressable={true} variant="flat" css={{ marginTop: "3%", borderRadius: "10px" }} onPress={() => Router.push('/posts/oLWGiZkBqjC6BpZz')}>
               <Row>
                   <h1 style={{ fontSize: "25px", fontWeight: "400", marginTop: "5%", marginLeft: "5%" }}>Exodus Wallet Stealer</h1> 
                   <h1 style={{ fontSize: "18px", fontWeight: "400", marginTop: "5%", marginLeft: "50%", color: "#767b84" }}>Mar 31, 2023</h1>
@@ -23,7 +32,7 @@ export default function home() {
 
         <Grid.Container css={{ display: "flex" }}>
           <Grid css={{ marginLeft: "auto", marginRight: "auto", width: "45%" }}>
-            <Card isPressable={true} variant="flat" css={{ marginTop: "10%", borderRadius: "10px" }} onPress={() => Router.push('/posts/3DFMRJVv5QnwPCTi')}>
+            <Card isPressable={true} variant="flat" css={{ marginTop: "5%", borderRadius: "10px" }} onPress={() => Router.push('/posts/3DFMRJVv5QnwPCTi')}>
               <Row>
                   <h1 style={{ fontSize: "25px", fontWeight: "400", marginTop: "5%", marginLeft: "5%" }}>Bitcoin Clipper Malware</h1> 
                   <h1 style={{ fontSize: "18px", fontWeight: "400", marginTop: "5%", marginLeft: "50%", color: "#767b84" }}>Mar 20, 2023</h1>
