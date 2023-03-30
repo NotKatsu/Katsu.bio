@@ -1,5 +1,6 @@
-import { Grid, Row, Link, Card, Badge, Tooltip, Spacer } from "@nextui-org/react"
+import { Grid, Row, Link, Card, Badge, Tooltip, Button } from "@nextui-org/react"
 import { BsArrowReturnRight } from 'react-icons/bs'
+import { BiArrowBack } from 'react-icons/bi'
 import Router from 'next/router'
 
 export default function home() {
@@ -10,12 +11,14 @@ export default function home() {
 
         <Grid.Container css={{ display: "flex",  }}>
             <Grid css={{ marginLeft: "auto", marginRight: "auto", width: "45%" }}>
-            <h2 style={{ marginTop: "5%", fontSize: "30px" }}>Recent Posts:</h2>
+                <Row>
+                    <h2 style={{ marginTop: "5%", fontSize: "30px" }}>Recent Posts:</h2>
+                    <Button css={{ marginTop: "5%", bg: "transparent", fontSize: "19px", paddingLeft: "$0" , marginLeft: "auto"}}  animated={false} auto onPress={() => Router.push('/')}><BiArrowBack style={{ marginRight: "5px" }}/>Back</Button>
+                </Row>
             </Grid>
         </Grid.Container>
 
-
-        <Grid.Container css={{ display: "flex",  }}>
+        <Grid.Container css={{ display: "flex"}}>
     
           <Grid css={{ marginLeft: "auto", marginRight: "auto", width: "45%" }}>
             <Card isPressable={true} variant="flat" css={{ marginTop: "3%", borderRadius: "10px" }} onPress={() => Router.push('/posts/oLWGiZkBqjC6BpZz')}>
