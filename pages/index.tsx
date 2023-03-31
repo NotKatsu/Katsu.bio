@@ -60,7 +60,7 @@ const home = () => {
                         <p style={{ fontSize: "19px", marginRight: "2%" }}><FaPython size={32}/></p>
                     </Link>
 
-                    <Link href="https://www.sqlite.org/index.html/" style={{ marginRight: "2%", color: "#FFFFFF" }}>
+                    <Link href="https://www.sqlite.org/index.html" style={{ marginRight: "2%", color: "#FFFFFF" }}>
                         <p style={{ fontSize: "19px", marginRight: "2%" }}><FaDatabase size={32}/></p>
                     </Link>
 
