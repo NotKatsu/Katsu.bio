@@ -19,9 +19,10 @@ const home = () => {
             <Grid css={{ marginLeft: "auto", marginRight: "auto" }}>
                 <h2 style={{ marginTop: "7%", fontSize: "30px" }}>About Me</h2>
 
-                <p style={{ fontSize: "19px" }}>I'm Katsu a Developer from the UK, I am currently 15 and working on a few interesting</p>
-                <p style={{ fontSize: "19px" }}> projects, I have experience with multiple programming languages like Python, Go, C#</p>
-                <p style={{ fontSize: "19px" }}>and recently started to learn C++.</p>
+                <p style={{ fontSize: "19px" }}>As mentioned before I'm a developer from the UK that goes by the name Katsu online, not</p>
+                <p style={{ fontSize: "19px" }}>many of my in real life friends know what I get up to outside of school they just know I</p>
+                <p style={{ fontSize: "19px" }}>have always had an interest in Computers, I first started coding at the age of 9 when my</p>
+                <p style={{ fontSize: "19px" }}>dad introduced me to Python which is a language I have stuck with.</p>
                 
                 <h2 style={{ marginTop: "3%", fontSize: "25px" }}>Socials:</h2> 
                 <Row>
@@ -68,11 +69,6 @@ const home = () => {
                         <p style={{ fontSize: "19px", marginRight: "2%" }}><SiMongodb size={32}/></p>
                     </Link>
                 </Row>
-
-                {/* <h2 style={{ marginTop: "3%", fontSize: "25px" }}>What is this?</h2>
-                <p style={{ fontSize: "19px" }}>This website is a place for me to share code through what I have called "posts" these are</p>
-                <p style={{ fontSize: "19px" }}>just mini blogs but I hate that word so I wont use it much, here you will be able to find</p>
-                <p style={{ fontSize: "19px" }}>code, tutorials on how to setup projects and more.</p> */}
 
                 <Spacer y={1} />
                 <Button css={{ bg: "transparent", fontSize: "19px", paddingLeft: "$0" }}  animated={false} auto onPress={() => Router.push('/posts')}><BiArrowBack style={{ marginRight: "5px" }}/>Back</Button>
