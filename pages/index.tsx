@@ -69,12 +69,6 @@ const home = () => {
                     </Link>
                 </Row>
 
-                <h2 style={{ marginTop: "3%", fontSize: "25px" }}>More about me:</h2>
-                <p style={{ fontSize: "19px" }}>As mentioned before I'm a developer from the UK that goes by the name Katsu online, not</p>
-                <p style={{ fontSize: "19px" }}>many of my in real life friends know what I get up to outside of school they just know I</p>
-                <p style={{ fontSize: "19px" }}>have always had an interest in Computers, I first started coding at the age of 9 when my</p>
-                <p style={{ fontSize: "19px" }}>dad introduced me to Python which is a language I have stuck with.</p>
-
                 {/* <h2 style={{ marginTop: "3%", fontSize: "25px" }}>What is this?</h2>
                 <p style={{ fontSize: "19px" }}>This website is a place for me to share code through what I have called "posts" these are</p>
                 <p style={{ fontSize: "19px" }}>just mini blogs but I hate that word so I wont use it much, here you will be able to find</p>
