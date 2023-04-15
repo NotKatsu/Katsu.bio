@@ -75,10 +75,10 @@ const home = () => {
                 <p style={{ fontSize: "19px" }}>have always had an interest in Computers, I first started coding at the age of 9 when my</p>
                 <p style={{ fontSize: "19px" }}>dad introduced me to Python which is a language I have stuck with.</p>
 
-                <h2 style={{ marginTop: "3%", fontSize: "25px" }}>What is this?</h2>
+                {/* <h2 style={{ marginTop: "3%", fontSize: "25px" }}>What is this?</h2>
                 <p style={{ fontSize: "19px" }}>This website is a place for me to share code through what I have called "posts" these are</p>
                 <p style={{ fontSize: "19px" }}>just mini blogs but I hate that word so I wont use it much, here you will be able to find</p>
-                <p style={{ fontSize: "19px" }}>code, tutorials on how to setup projects and more.</p>
+                <p style={{ fontSize: "19px" }}>code, tutorials on how to setup projects and more.</p> */}
 
                 <Spacer y={1} />
                 <Button css={{ bg: "transparent", fontSize: "19px", paddingLeft: "$0" }}  animated={false} auto onPress={() => Router.push('/posts')}><BiArrowBack style={{ marginRight: "5px" }}/>Back</Button>
@@ -88,7 +88,6 @@ const home = () => {
                 <Spacer y={0.5} />
                 <Row>
                   <p style={{ fontSize: "18px", padding: "none", marginRight: "auto"}}>© Katsu 2021 - 2023 😇</p>
-                  <Link  href="/posts" css={{ fontSize: "18px", marginLeft: "auto", marginRight: "$5", color: "#e1e2e3" }}>Posts</Link>
                 </Row>
                 <Spacer y={1} />
             </Grid>
