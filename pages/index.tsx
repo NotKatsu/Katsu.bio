@@ -19,10 +19,10 @@ const home = () => {
             <Grid css={{ marginLeft: "auto", marginRight: "auto" }}>
                 <h2 style={{ marginTop: "7%", fontSize: "30px" }}>About Me</h2>
 
-                <p style={{ fontSize: "19px" }}>As mentioned before I'm a developer from the UK that goes by the name Katsu online, not</p>
-                <p style={{ fontSize: "19px" }}>many of my in real life friends know what I get up to outside of school they just know I</p>
-                <p style={{ fontSize: "19px" }}>have always had an interest in Computers, I first started coding at the age of 9 when my</p>
-                <p style={{ fontSize: "19px" }}>dad introduced me to Python which is a language I have stuck with.</p>
+                <p style={{ fontSize: "19px" }}>As mentioned before I'm a developer from the UK that goes by the name Katsu online,</p>
+                <p style={{ fontSize: "19px" }}>I have an interest in Investigating and Developing unique types of Malware to help people</p>
+                <p style={{ fontSize: "19px" }}>avoid getting tricked by it, I first started coding at the age of 9 when my dad introduced</p>
+                <p style={{ fontSize: "19px" }}>me to Python which is a language I have stuck with.</p>
                 
                 <h2 style={{ marginTop: "3%", fontSize: "25px" }}>Socials:</h2> 
                 <Row>
