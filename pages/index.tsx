@@ -1,4 +1,4 @@
-import { Divider, Card, Spacer, Grid, Badge, Button, Link, Row, Tooltip } from "@nextui-org/react";
+import { Divider, Card, Spacer, Grid, Badge, Button, Link, Row, Tooltip, User } from "@nextui-org/react";
 import { BiArrowBack, BiNews } from 'react-icons/bi'
 import { BsGithub, BsYoutube, BsSpotify, } from 'react-icons/bs'
 import { SiVisualstudiocode } from 'react-icons/si'
@@ -6,6 +6,7 @@ import { SiMongodb } from 'react-icons/si'
 import { FaPython, FaDatabase, FaDiscord, FaStar } from 'react-icons/fa'
 import { AiFillInstagram } from 'react-icons/ai'
 import Router from 'next/router'
+import { SP } from "next/dist/shared/lib/utils";
 
 const home = () => {
   return (
@@ -16,8 +17,24 @@ const home = () => {
         </head>
 
         <Grid.Container css={{ display: "flex" }}>
-            <Grid css={{ marginLeft: "auto", marginRight: "auto" }}>
-                <h2 style={{ marginTop: "7%", fontSize: "30px" }}>About Me</h2>
+            <Grid css={{ marginLeft: "auto", marginRight: "auto", marginTop: "2%" }}>
+              <div style={{ float: "left" }}>
+                  <div style={{ float: "left" }}>
+                    <img src="https://cdn.discordapp.com/attachments/1092773435962310806/1096805176054137072/7560a52cec1b5c30fa910cbebb996bf5.png" style={{ borderRadius: "100px" }} width={95} height={95}/>
+                  </div>
+
+                  <div style={{ float: "left", overflow: "hidden" }} >
+                    <h1 style={{ marginLeft: "2%" }}>Hello World</h1>
+                  </div>
+                </div>
+            </Grid>
+        </Grid.Container>
+
+
+        <Grid.Container css={{ display: "flex" }}>
+            <Grid css={{ marginLeft: "auto", marginRight: "auto", marginTop: "2%" }}>
+
+                <h2 style={{ marginTop: "3%", fontSize: "30px" }}>About Me</h2>
 
                 <p style={{ fontSize: "19px" }}>As mentioned before I'm a developer from the UK that goes by the name Katsu online,</p>
                 <p style={{ fontSize: "19px" }}>I have an interest in Investigating and Developing unique types of Malware to help people</p>
